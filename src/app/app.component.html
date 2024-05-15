@@ -1,0 +1,13 @@
+
+<mat-toolbar class="toolbar-component">
+  <span>noman</span>
+</mat-toolbar>
+<div class="example-label">
+  <button mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)="actionNavigate()">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-flat-button color="accent" (click)="registrationPage()">registration</button>
+</div>
+<div>{{title}}</div>
+<div>{{title2}}</div>
+<router-outlet></router-outlet>
